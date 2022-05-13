@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 75px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+}
+.header-container{
+    width: 1200px;
+    /* background-color: red; */
+}
+.nav-items{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items img{
+    width: 130px;
+    height: 40px;
+}
+.nav-items a{
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+    /* color: white; */
+}
